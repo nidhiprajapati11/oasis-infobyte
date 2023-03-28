@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+   
+}
+.container{
+   
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+  z-index: 10000;
+}
+
+header.sticky{
+    padding: 6px 152px;
+    background: white;
+}
+header.sticky ul li a{
+    color: black;
+}
+header.sticky h1{
+    color: black;
+}
+header h1{
+    position: relative;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    position: relative;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase   ;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(imge/img.png);
+    background-size: cover;
+}
+.header-text{
+    color: white;
+    
+    padding: 300px 110px;
+    font-size: 30px;
+    font-family: math;
+    letter-spacing: 3px;
+}
+.header-text h1{
+     font-size: 68px;
+     letter-spacing: 5px;
+}
+.header-text  span{
+    color: #00ffd5;
+   
+}
+.social-icon{
+    margin-top: 15px;
+
+}
+
+.social-icon a{
+    color: white;
+   
+
+
+}
+
+
+/*--------------------------about us-----------------------*/
+
+#about{
+    background: #231f1f;
+    width: 100%;
+    height: 100vh;
+}
+.imge-about{
+    width: 15%;
+    float: left;
+    padding: 106px;
+    margin-left: 114px;
+    height: 310px;
+    
+}
+.imge-about img{
+    width: 100px;
+    height: 100px;
+
+} 
+.about-info{
+    width: 50%;
+    float: right;
+    padding: 146px 102px;
+    color: white;
+
+}
+.about-info p{
+    padding: 25px 273px 13px 119px;
+    margin-left: -117px;
+}
+.btn{
+    padding: 35px;
+    margin-left: -152;
+}
+.btn button{
+    margin-left: -35px;
+    border: 2px solid #09b5b7;
+    background: #09b5b7;
+    font-size: 15px;
+   padding: 10px;
+
+}
+
+.btn button a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.btn button:hover{
+  background-color: gray;
+}
+
+/*------------------------------skills--------------------------*/
+
+#skills{
+    background-color: #302e2c;
+    height: 80vh;
+}
+.content{
+    padding: 70px;
+}
+.content-skills{
+   display: flex; 
+   justify-content: center;
+   position: relative;
+   margin-top: 50px;
+}
+.info-skills{
+    text-align: left;
+    margin-left: 250px;
+    color: white;
+
+}
+.info-skills p{
+   padding: 30px 1px;
+}
+.skillsinfo{
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 330px;
+    color: white;
+}
+.line{
+  margin-bottom: 15px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bar{
+    background-color: gray;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+.bar::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #63d0f1;
+}
+
+.html::before{
+    width: 90%;
+}
+
+.css::before{
+    width: 60%;
+}
+
+.js::before{
+    width: 40%;
+}
+
+.react js::before{
+    width: 35%;
+}
+
+.btn-skills button{
+     border: 1px solid #09b5b7;
+    padding: 10px;
+    background-color: #09b5b7;
+
+}
+.btn-skills button:hover{
+     background-color: white;
+}
+
+/*------------------------------contact--------------------------*/
+
+
+#contact{
+    background-color: #231f1f;
+
+}
+.content{
+    text-align: center;
+    color: white;
+}
+.container-contact{
+   position: relative;
+   display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.contactinfo .box{
+    display: flex;
+    padding: 4px 0;
+
+}
+.text-contact{
+    color: white;
+}
+.icon{
+    display: flex;
+    font-size: 30px;
+    height: 60px;
+    color: #09b5b7;
+    min-width: 60px;
+}
+
+.contact-form{
+    width: 30%;
+    margin-left: 150px;
+}
+
+
+.contact-form .inputbox{
+    margin-top: 10px;
+}
+
+.contact-form .inputbox input, textarea{
+    width: 100%;
+    padding: 8px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-center button{
+    border: 1px solid #09b5b7;
+    padding: 10px;
+    background-color: #09b5b7;
+
+}
+
+.text-center button:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
