@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.beg-img{
+	background-image: url('imge/hero-bg.jpg');
+	background-position: center;
+	
+	width: 100%;
+	height: 800px;
+
+}
+
+
+.menu-bar{
+	    padding: 55px 0;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu-bar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+   float: right;
+	
+}
+.menu-bar ul li{
+	float: left;
+ width: 130px;
+ height: 40px;
+ 
+ line-height: 40px;
+ text-align: center;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	display: block;
+}
+.menu-bar ul li a:hover{
+	  color: green ;
+
+}
+
+.menu-bar ul li ul li{
+	display: none;
+	background-color: white;
+}
+.menu-bar ul li:hover ul li{
+	display: block;
+}
+/*.drop-down-1{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 150px;
+}
+*/
+
+.text{
+	
+	padding: 100px 200px;
+	text-align: center;
+   color: purple;
+   margin-top: 120px;
+  
+}
+
+.btn{
+	text-align: center;
+}
+
+
+.btn button{
+	padding: 20px;
+	background-color: transparent;
+   
+	border-radius: 30px;
+	border: 7px solid;
+	transition: 0.7s;
+	padding: 8px 28px;
+	text-transform: uppercase;
+	margin-bottom: -140px;
+}
+ 
+.btn button:hover{
+	background-color: blueviolet;
+} 
+
+
+	/*  About Us */
+
+ .img1{
+ 
+   
+	min-height: 380px;
+	float: right;
+	padding: 52px;
+	width: 669px;
+	background-repeat: no-repeat;
+	position: relative;
+	
+ }
+
+ .text-decoret{
+	text-align: left;
+	text-decoration: none;
+	text-align: justify;
+	height: 100px;
+	width: 50%;
+	padding: 109px;
+	left: 15%;
+
+ }
+ 
+ .icon-box .icon{
+	border-radius: 50%;
+	border: 3px solid goldenrod;
+	width: 64px;
+	height: 64px;
+	float: left;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+   
+ }
+
+.icon-box .icon i {
+	color: goldenrod;
+	font-size: 29px;
+	padding: 20px;
+} 
+
+.title{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 80px;
+	margin-bottom: 24px;
+}
+.title a{
+	text-decoration: none;
+	color: #0e6063c4;
+}
+
+.description{
+ font-size: 18px;
+ margin-left: 80px;
+ line-height: 24px;   
+}
+
+/*-----facts------*/
+
+#facts{
+	background: beige;
+	padding: 80px 0 60px 0;
+	margin-top: 250px;
+}
+.counter{
+	width: 25px;
+	display: flex;
+	margin-top: 50px;
+}
+.section-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 32px;
+}
+
+.section-description{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Courier New', monospace;
+
+}
+
+span{
+	font-size: 48px;
+	display: block;
+	color: green;
+	margin-left: 235px;
+}
+
+.text-center p{
+	font-size: 15px;
+	color: green;
+	text-align: right;
+}
+
+
+/*----services---*/
+
+.service-header{
+	text-align: center;
+	color: darkgray;
+}
+.service-header h1{
+	font-size: 32px;
+	color: black;
+}
+.box-service{
+	text-align: center;
+	border: 1px solid goldenrod;
+	background: #efe0e0;
+	height: 104px;
+	width: 236px;
+	padding: 50px 20px;
+	margin-bottom: 50px;
+	position: relative;
+   margin-left: 156px;
+}
+
+.service-box1{
+	/*width: 33%;*/
+	display: flex;
+	margin-top: 50px;
+}
+
+.icon-service{
+	border-radius: 50%;
+	border: 2px solid purple;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: -9%;
+	left: calc(50% - 36px);
+	background: white;
+	
+
+}
+.icon-service:hover{
+	background-color: darkgrey;
+}
+.icon-service i{
+	color: purple;
+	font-size: 29px;
+	padding: 8px;
+}
+
+/* ACTION */
+.img-action{
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(142, 135, 135, 0.35)), url('imge/call-to-action-bg.jpg');
+	background-size: cover;
+	padding: 20px 0;
+	height: 250px;
+
+}
+.text-action{
+	text-align: left;
+	color: white; 
+	 margin-left: 121px;
+	  margin-right: 480px;
+	 padding: 50px;
+	 font-size: 25px;
+}
+.text_action {
+	 margin-left: 170px;
+	 margin-right: 480px;
+
+	 
+}
+.text_action p{
+	color: white;
+	font-size: 20px;
+
+}
+.text_action h1{
+	padding: 50px;
+}
+.btn-action{
+	text-align: right;
+	margin-right: 194px;
+	margin-bottom: 204px;
+	margin-top: -85px;
+}
+.btn-action button{
+	
+	padding: 20px;
+	background-color: transparent;
+   
+	border-radius: 30px;
+	border: 7px solid white;
+	transition: 0.7s;
+	padding: 8px 28px;
+	text-transform: uppercase;
+	margin-bottom: -140px;
+	color: white;
+}
+.btn-action button:hover{
+	background: chocolate;
+}
+ /*---- PORTFOLIO ------*/
+
+#portfolio{
+	background: #efe7e7a8;
+}
+ .header-portfolio{
+        text-align: center;
+ }
+ .header-portfolio h1{
+ 	color: black;
+ 	text-transform: uppercase;
+ 	font-size: 32px;
+ }
+ .header-portfolio h2{
+ 	color: darkgray;
+ }
+ .btn-portfolio{
+ 	text-align: center;
+
+ }
+
+ .contoler ul{
+ 	display: flex;
+ 	margin-bottom: 10px;
+ 	margin-left: 540px;
+ 	margin-top: 30px;
+
+
+ }
+.contoler ul li{
+	list-style: none;
+	background: white;
+	padding: 8px 20px;
+	margin: 5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+.contoler ul li.active{
+	background: green;
+	color: purple;
+}
+.contoler ul li:hover{
+	background-color: green;
+}
+.product{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 175px;
+}
+.product .itembox{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	border: 5px solid white;
+}
+.product .itembox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*------------------- team -------------*/
+
+.team-header{
+	text-align: center;
+	margin-top: 20px;
+
+
+}
+.team-header h1{
+	text-transform: uppercase;
+	font-size: 32px;
+}
+.team-header h2{
+	color: gray;
+}
+
+.team-member{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 209px;
+	margin-top: 30px;
+
+	
+}
+.team-member .team-img{
+	margin: 10px;
+}
+.team-member .team-img img{
+	width: 90%;
+	height: 80%;
+}
+.team-img h1{
+	text-align: center;
+	text-transform: uppercase;
+    font-size: 15px;
+}
+.team-img h2{
+	text-align: center;
+	font-size: 20px;
+}
+
+.social{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.social i{
+	color: gray;
+}
+.social i:hover{
+	color: blueviolet;
+}
+
+
+/*------------------- contact------------*/
+#contact{
+	background-color: #c4b7cf94;
+}
+.header-contact{
+	text-align: center;
+	margin-top: 50px;
+}
+.header-contact h1{
+	color: black;
+	margin-top: 30px;
+	font-size: 32px;
+}
+.header-contact h2{
+	color: gray;
+}
+.contact-info{
+	position: relative;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+
+}
+.info{
+	
+	width: 30%;
+	margin-top: 30px;
+}
+.contactinfo .box{
+	position: relative;
+	padding: 4px 0;
+	display: flex;
+
+}
+
+.social-icon i{
+	
+	padding: 8px;
+    color: gray;
+    border-radius: 50px;
+    border: 2px solid darkolivegreen;
+    margin: 6px;
+    background: beige;
+}
+
+.social-icon i:hover{
+	background: #236f72;
+}
+
+.contactinfo .box .icon-contact{
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	font-size: 30px;
+	color: #236f72;
+}
+
+.contactform{
+	width: 30%;
+	padding: 40px;
+	
+}
+
+.contactform .inputbox{
+	margin-top: 10px;
+}
+.contactform .inputbox input, textarea{
+	width: 100%;
+	padding: 7px 0;
+	border: none;
+	border: 2px solid gray;
+}
+.text-center{
+	text-align: center;
+
+}
+.text-center button{
+	border: 2px solid #236f72;
+	padding: 10px;
+	background: #236f72;
+	margin-top: 10px;
+	color: white;
+} 
+
+.text-center button:hover{
+	background: green;
+}
